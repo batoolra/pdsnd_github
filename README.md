@@ -21,4 +21,5 @@ washington
 
 ### Credits
 https://www.w3schools.com/python/
+https://docs.python.org/3/tutorial/errors.html
 
