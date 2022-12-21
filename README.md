@@ -12,7 +12,10 @@ bike share systems for three major cities in the United States—Chicago, New
 York City, and Washington. It's all about coding to import the data and answer
 interesting questions about it by computing descriptive statistics.Also, 
 writing a script that takes in raw input to create an interactive experience
-in the terminal to present these statistics.
+in the terminal to present these statistics. 
+
+### Description of The User Point of View: In this project, the user is able filter the information by city, month
+and weekday,in order to visualize statistics information related to a specific subset of data.
 
 ### Files used
 bikeshare_2.py
