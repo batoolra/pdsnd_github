@@ -18,11 +18,14 @@ in the terminal to present these statistics.
 and weekday,in order to visualize statistics information related to a specific subset of data.
 
 ### Files used
-bikeshare_2.py
 new_york_city
 washington
 
 ### Credits
 https://www.w3schools.com/python/
 https://docs.python.org/3/tutorial/errors.html
+
+### Your Feedback
+It is an excellent experience so far.
+I am satisfied that I have learnt a lot in a short time! 
 
