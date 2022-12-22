@@ -117,6 +117,20 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
+def display_data(city):
+    """ Displays 5 raws data on user request.
+    Args:
+        (DataFrame) df - Pandas DataFrame containing city data filtered by month and day
+    """
+    df = pd.read_csv(CITY_DATA[city])
+    
+    view_data = input('\nWould you like to view 5 rows of individual trip data? Enter yes or no.\n')
+    start_loc = 0
+    
+    while view_data!= 'no':
+        print(df.iloc[start_loc:start_loc+5])
+        start_loc += 5
+        view_data = input("Do you want to continue? Enter yes or no.")
 
 def main():
     while True:
