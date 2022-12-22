@@ -117,7 +117,8 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-def display_data(city):
+def display_data(city): // ask the user if she/he wants to see the data
+
     """ Displays 5 raws data on user request.
     Args:
         (DataFrame) df - Pandas DataFrame containing city data filtered by month and day
